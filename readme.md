@@ -26,3 +26,10 @@ import missingno    # conda install -c conda-forge missingno
 import sklearn      # conda install scikit-learn
 import pickle
 ```
+
+## Session 3a: Clustering & 3b: Dimensionality reduction
+
+```bash
+import mpl_toolkits
+import random as rand
+```
