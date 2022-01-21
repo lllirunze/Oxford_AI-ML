@@ -33,3 +33,12 @@ import pickle
 import mpl_toolkits
 import random as rand
 ```
+
+## Session 4: Gradient Descent
+
+```bash
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error, r2_score
+from sklearn.datasets import load_boston
+boston_dataset = load_boston()
+```
