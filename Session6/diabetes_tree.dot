@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="Glucose <= 127.5\ngini = 0.45\nsamples = 768\nvalue = [500, 268]\nclass = Diabetes", fillcolor="#f3c5a3"] ;
+1 [label="Age <= 28.5\ngini = 0.31\nsamples = 485\nvalue = [391, 94]\nclass = Diabetes", fillcolor="#eb9f69"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="BMI <= 45.4\ngini = 0.16\nsamples = 271\nvalue = [248, 23]\nclass = Diabetes", fillcolor="#e78d4b"] ;
+1 -> 2 ;
+3 [label="gini = 0.14\nsamples = 267\nvalue = [247, 20]\nclass = Diabetes", fillcolor="#e78b49"] ;
+2 -> 3 ;
+4 [label="gini = 0.38\nsamples = 4\nvalue = [1, 3]\nclass = NOT diabetes", fillcolor="#7bbeee"] ;
+2 -> 4 ;
+5 [label="BMI <= 26.35\ngini = 0.44\nsamples = 214\nvalue = [143, 71]\nclass = Diabetes", fillcolor="#f2c09b"] ;
+1 -> 5 ;
+6 [label="gini = 0.0\nsamples = 39\nvalue = [39, 0]\nclass = Diabetes", fillcolor="#e58139"] ;
+5 -> 6 ;
+7 [label="gini = 0.48\nsamples = 175\nvalue = [104, 71]\nclass = Diabetes", fillcolor="#f7d7c0"] ;
+5 -> 7 ;
+8 [label="BMI <= 29.95\ngini = 0.47\nsamples = 283\nvalue = [109, 174]\nclass = NOT diabetes", fillcolor="#b5daf5"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="Glucose <= 145.5\ngini = 0.44\nsamples = 75\nvalue = [51, 24]\nclass = Diabetes", fillcolor="#f1bc96"] ;
+8 -> 9 ;
+10 [label="gini = 0.26\nsamples = 40\nvalue = [34, 6]\nclass = Diabetes", fillcolor="#ea975c"] ;
+9 -> 10 ;
+11 [label="gini = 0.5\nsamples = 35\nvalue = [17, 18]\nclass = NOT diabetes", fillcolor="#f4fafe"] ;
+9 -> 11 ;
+12 [label="Glucose <= 157.5\ngini = 0.4\nsamples = 208\nvalue = [58, 150]\nclass = NOT diabetes", fillcolor="#86c3ef"] ;
+8 -> 12 ;
+13 [label="gini = 0.48\nsamples = 116\nvalue = [46, 70]\nclass = NOT diabetes", fillcolor="#bbddf6"] ;
+12 -> 13 ;
+14 [label="gini = 0.23\nsamples = 92\nvalue = [12, 80]\nclass = NOT diabetes", fillcolor="#57ace9"] ;
+12 -> 14 ;
+}
