@@ -66,3 +66,39 @@ from sklearn.model_selection import GridSearchCV
 ```bash
 conda install -c conda-forge graphviz
 ```
+
+## Session 7: Gaussian Mixture Models
+
+## Session 8: Natural Language Processing
+
+### 8.1 Wordcloud
+
+```bash
+from wordcloud import WordCloud, STOPWORDS  # conda install -c conda-forge wordcloud
+import matplotlib.pyplot as plt
+```
+
+### 8.2 Natural Language Toolkit (NLTK)
+
+```bash
+import nltk
+from nltk.corpus import stopwords
+from nltk.corpus.reader import tagged
+```
+
+### 8.3 Vader Sentiment Analyzer
+
+```bash
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+# conda install -c conda-forge vadersentiment
+```
+
+### 8.4 Other libraries used in the Natural Language Workshop
+
+```bash
+from collections import OrderedDict
+import csv
+import pandas as pd
+import numpy as np
+from sklearn.feature_extraction.text import CountVectorizer
+```
