@@ -120,3 +120,10 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Dense, Flatten, Dropout
 from tensorflow.keras.optimizers import Adam
 ```
+
+## Session 10: Reinforcement Learning
+
+```bash
+import gym          # conda install -c conda-forge gym
+form IPython.display import clear_output
+```
