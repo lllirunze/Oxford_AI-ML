@@ -102,3 +102,21 @@ import pandas as pd
 import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer
 ```
+
+## Session 9: Deep Learning
+
+```bash
+from sklearn.datasets import make_blobs
+from sklearn.linear_model import Perception
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+import numpy as np
+import matplotlib.pyplot as plt
+
+# conda install -c conda-forge keras
+# conda install -c anaconda keras-gpu
+import tensorflow.keras
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, Dense, Flatten, Dropout
+from tensorflow.keras.optimizers import Adam
+```
